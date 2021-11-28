@@ -10,17 +10,16 @@ Your inverter will need a network connection, so either an ethernet connection o
 
 1. Use at your own risk.
 
-2. I consider this in ALPHA state and there will be further changes, not all sensors are available yet there is a bit of work still required. There should be enough to get the Home-Assistant energy configuration filled in for grid, and solar usage.
+2. I consider this in ALPHA state and there will be further changes, not all sensors are available yet there is a bit of work still required. There should be enough to get the Home-Assistant energy configuration filled in for grid, and solar and battery usage however.
 
 ## Supported Inverters
 
 This plugin has been tested with a Sungrow SH5K-v13 Hybrid Inverter with a LG Chem 6.5kWh battery, and is the only testing that i've been able to perform so far, the same modbus registers are used across the Residntial Hybrid inverter range so should work with out issue.
 
-I added the ability to use a Sungrow Residential String Inverters as well BUT I have not been able to test these registers other than refer to the https://github.com/meltaxa/solariot project, which this sensor has been based on. 
+I added the ability to use a Sungrow Residential String Inverters as well BUT I have not been able to test these registers other than refer to the modbus maps in a public sungrow modbus map docs @ python module https://github.com/mvandersteen/SungrowInverter/tree/main/docs; these pdf have been teh main source of reference and also the solariot project @ https://github.com/meltaxa/solariot (a big shout out to @meltaxa for that work)
 
-All the SGxx type inverters can be supported as well but i have not set the sensor to read those values as yet. Will get to taht soon.
+All the SGxx type inverters can be supported as well but i have not set the sensors up to be read from those yet, will get to that soon once my own inverter is working correctly.
 
-If you are using any other inverter, i'll resolve best i can.
 
 ### Hybrid/Storage Inverters - inverter that support a battery
 
@@ -36,9 +35,10 @@ Residential Hybrid Three Phase Inverter wide battery voltage range [80V to 460V]
 
 SH5.0RT / SH6.0RT / SH8.0RT / SH10RT
 
+
 ## Installing the component
 
-Copy the following files into to it's own directory called sungrow within custom_components directory where the configuration for your installation of home assistant sits. 
+Copy the files in ~/custom_components/sungrow files into to there own sungrow directory within custom_components; where the configuration for your installation of home assistant sits. 
 
 The custom_components directory does not exist in default installation state and may need to be created.
 
