@@ -1,0 +1,11 @@
+{
+  "domain": "sungrow",
+  "name": "Sungrow",
+  "documentation": "https://github.com/mvandersteen/ha-sungrow",
+  "issue_tracker": "https://github.com/mvandersteen/ha-sungrow/issues",
+  "dependencies": [ ],
+  "version": "0.1.5",
+  "codeowners": [ "@mvandersteen" ],
+  "requirements": [ "SungrowInverter>=0.1.5" ],
+  "iot_class": "local_polling"
+}
