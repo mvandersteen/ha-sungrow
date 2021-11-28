@@ -1,6 +1,6 @@
 # ha-sungrow
 
-This is a [Home Assistant](https://home-assistant.io) sensor component to suuport retrieving data from Sungrow Residential inverters using modbus tcp.
+This is a [Home Assistant](https://home-assistant.io) sensor component to support retrieving data from Sungrow Residential inverters using modbus tcp.
 
 A python module has also been created for the purpose of providing access to the registers within the sungrow inverters, and will be developed further as time permits. It is available at https://pypi.org/project/SungrowInverter/ and in current form supports hybrid and string inverters however this integration only supports hybrid for the moment, see below for supported hybrid inverters.
 
