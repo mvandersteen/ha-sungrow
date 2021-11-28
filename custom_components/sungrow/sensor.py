@@ -5,7 +5,7 @@ Currently supported:
     Sungrow Hybrid or String Inverters (SH or SG models)
 
 """
-from homeassistant.const import DEVICE_CLASS_FREQUENCY
+
 from sungrowinverter import SungrowInverter
 
 from functools import partial
@@ -103,13 +103,6 @@ SENSOR_TYPES: tuple[SensorEntityDescription, ...] = (
         name="PV Array 2 Energy Generation",
         native_unit_of_measurement=POWER_WATT,
         device_class=DEVICE_CLASS_ENERGY,
-        state_class=STATE_CLASS_MEASUREMENT,
-    ),
-    SensorEntityDescription(
-        key=SUNGROW_GRID_FREQUENCY,
-        name="Grid Frequency",
-        native_unit_of_measurement=FREQUENCY_HERTZ,
-        device_class=DEVICE_CLASS_FREQUENCY,
         state_class=STATE_CLASS_MEASUREMENT,
     ),
     SensorEntityDescription(
