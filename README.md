@@ -2,9 +2,9 @@
 
 This is a [Home Assistant](https://home-assistant.io) sensor component to suuport retrieving data from Sungrow Residential inverters using modbus tcp.
 
-A python module has also been created in conjuction with this component that supports much more than the registers/sensors currently exposed, and will be developed further as well, is available at https://pypi.org/project/SungrowInverter/ and will entend to support the SGxxxxx string inverters, only the hybrid ones are supported at the moment, see below.
+A python module has also been created for the purpose of providing access to the registers within the sungrow inverters, and will be developed further as time permits. It is available at https://pypi.org/project/SungrowInverter/ and in current form supports hybrid and string inverters however this integration only supports hybrid for the moment, see below for supported hybrid inverters.
 
-Your inverter will need a network connection this does not support serial modbus links (for now).
+Your inverter will need a network connection, so either an ethernet connection or wifi dongle; this solution does not support rs485 modbus.
 
 # Important notes
 
@@ -14,7 +14,7 @@ Your inverter will need a network connection this does not support serial modbus
 
 ## Supported Inverters
 
-This plugin has been tested with a Sungrow SH5K-v13 Hybrid Inverter with a LG Chem 6.5kWh battery, and is the only testing that i've been able to perform, the same modbus registers are used across the Residntial Hybrid inverter range so should work with out issue.
+This plugin has been tested with a Sungrow SH5K-v13 Hybrid Inverter with a LG Chem 6.5kWh battery, and is the only testing that i've been able to perform so far, the same modbus registers are used across the Residntial Hybrid inverter range so should work with out issue.
 
 I added the ability to use a Sungrow Residential String Inverters as well BUT I have not been able to test these registers other than refer to the https://github.com/meltaxa/solariot project, which this sensor has been based on. 
 
