@@ -21,11 +21,17 @@ All the SGxx type inverters seem to use the same modbus registers as well.
 If you are using any other inverter, i'll resolve best i can.
 
 ### Hybrid/Storage Inverters - Ability to use a battery
+Residential Hybrid Single Phase Inverter for Low Voltage Battery [48V to 70V]
 
-SH3K6 / SH4K6 / SH5K-V13 / SH5K-20     - Residential Hybrid Single Phase Inverter for Low Voltage Battery [48V to 70V]
-SH4K6-30 / SH5K-30 / SH3K6-30          - Residential Hybrid Single Phase Inverter for Low Voltage Battery [48V to 70V newer version]
-SH3.6RS / SH4.6RS / SH5.0RS / SH6.0RS  - Residential Hybrid Single Phase Inverter wide battery voltage range [80V to 460V]
-SH5.0RT / SH6.0RT / SH8.0RT / SH10RT   - Residential Hybrid Three Phase Inverter wide battery voltage range [80V to 460V]
+SH3K6 / SH4K6 / SH5K-V13 / SH5K-20 / SH4K6-30 / SH5K-30 / SH3K6-30
+
+Residential Hybrid Single Phase Inverter wide battery voltage range [80V to 460V]
+
+SH3.6RS / SH4.6RS / SH5.0RS / SH6.0RS
+
+Residential Hybrid Three Phase Inverter wide battery voltage range [80V to 460V]
+
+SH5.0RT / SH6.0RT / SH8.0RT / SH10RT
 
 ### String Inverters - Solar panel and grid connection only
 
@@ -40,6 +46,7 @@ SG100CX-JP, SG110CX, SG136TX, SG225HX, SG250HX
 SG250HX-IN, SG250HX-US
 
 Discontinued (as @ 2021-07-12):
+
 SG30KTL, SG10KTL, SG12KTL, SG15KTL, SG20KTL, SG30KU, SG36KTL, SG36KU, SG40KTL,
 SG40KTL-M, SG50KTL-M, SG60KTL-M, SG60KU
 
