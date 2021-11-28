@@ -20,7 +20,8 @@ All the SGxx type inverters seem to use the same modbus registers as well.
 
 If you are using any other inverter, i'll resolve best i can.
 
-### Hybrid/Storage Inverters - Ability to use a battery
+### Hybrid/Storage Inverters - inverter that support a battery
+
 Residential Hybrid Single Phase Inverter for Low Voltage Battery [48V to 70V]
 
 SH3K6 / SH4K6 / SH5K-V13 / SH5K-20 / SH4K6-30 / SH5K-30 / SH3K6-30
