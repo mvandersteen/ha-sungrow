@@ -51,8 +51,8 @@ SUNGROW_GRID_FREQUENCY = "grid_frequency"
 SUNGROW_DAILY_PV_ENERGY = "daily_pv_generation"
 SUNGROW_TOTAL_PV_ENERGY = "total_pv_generation"
 
-SUNGROW_DAILY_DIRECT_ENERGY_CONSUMPTION = "daily_direct_energy_consuption"
-SUNGROW_TOTAL_DIRECT_ENERGY_CONSUMPTION = "total_direct_energy_consuption"
+SUNGROW_DAILY_DIRECT_ENERGY_CONSUMPTION = "daily_direct_energy_consumption"
+SUNGROW_TOTAL_DIRECT_ENERGY_CONSUMPTION = "total_direct_energy_consumption"
 
 SUNGROW_DAILY_EXPORT_ENERGY_FROM_PV = "daily_export_power_from_pv"
 SUNGROW_TOTAL_EXPORT_ENERGY_FROM_PV = "total_export_power_from_pv"
