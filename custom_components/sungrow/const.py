@@ -31,20 +31,20 @@ SUNGROW_DAILY_IMPORT_ENERGY = "daily_import_energy"
 SUNGROW_TOTAL_IMPORT_ENERGY = "total_import_energy"
 
 # Battery charged from PV
-SUNGROW_DAILY_BATTERY_CHARGE_PV_ENERGY = "daily_battery_charge_energy_from_pv"
-SUNGROW_TOTAL_BATTERY_CHARGE_PV_ENERGY = "total_battery_charge_energy_from_pv"
+#SUNGROW_DAILY_BATTERY_CHARGE_PV_ENERGY = "daily_battery_charge_energy_from_pv"
+#SUNGROW_TOTAL_BATTERY_CHARGE_PV_ENERGY = "total_battery_charge_energy_from_pv"
 
 # Battery charged from GRID
 SUNGROW_DAILY_BATTERY_CHARGE_GRID_ENERGY = "daily_charge_energy"
 SUNGROW_TOTAL_BATTERY_CHARGE_GRID_ENERGY = "total_charge_energy"
 
-SUNGROW_DAILY_BATTERY_DISCHARGE_ENERGY = "daily_battery_discharge_energy"
-SUNGROW_TOTAL_BATTERY_DISCHARGE_ENERGY = "total_battery_discharge_energy"
+#SUNGROW_DAILY_BATTERY_DISCHARGE_ENERGY = "daily_battery_discharge_energy"
+#SUNGROW_TOTAL_BATTERY_DISCHARGE_ENERGY = "total_battery_discharge_energy"
 
 SUNGROW_INVERTER_EFFICENCY = "inverter_efficency"
 
-SUNGROW_DAILY_OUTPUT_ENERGY = "daily_output_energy"
-SUNGROW_TOTAL_OUTPUT_ENERGY = "total_output_energy"
+#SUNGROW_DAILY_OUTPUT_ENERGY = "daily_output_energy"
+#SUNGROW_TOTAL_OUTPUT_ENERGY = "total_output_energy"
 
 SUNGROW_GRID_FREQUENCY = "grid_frequency"
 
@@ -54,8 +54,8 @@ SUNGROW_TOTAL_PV_ENERGY = "total_pv_generation"
 SUNGROW_DAILY_DIRECT_ENERGY_CONSUMPTION = "daily_direct_energy_consumption"
 SUNGROW_TOTAL_DIRECT_ENERGY_CONSUMPTION = "total_direct_energy_consumption"
 
-SUNGROW_DAILY_EXPORT_ENERGY_FROM_PV = "daily_export_power_from_pv"
-SUNGROW_TOTAL_EXPORT_ENERGY_FROM_PV = "total_export_power_from_pv"
+#SUNGROW_DAILY_EXPORT_ENERGY_FROM_PV = "daily_export_power_from_pv"
+#SUNGROW_TOTAL_EXPORT_ENERGY_FROM_PV = "total_export_power_from_pv"
 
 SUNGROW_DAILY_EXPORT_ENERGY_FROM_BATTERY = "daily_export_energy"
 SUNGROW_TOTAL_EXPORT_ENERGY_FROM_BATTERY = "daily_export_energy"
